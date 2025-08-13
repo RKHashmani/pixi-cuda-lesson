@@ -24,3 +24,6 @@ pre-commit = ">=4.3.0,<5"
 
 [environments]
 dev = ["dev"]
+
+[target.linux-64.dependencies]
+cuda = ">=13.0.0,<14"
